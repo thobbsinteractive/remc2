@@ -941,7 +941,7 @@ Bit32u compare_0x6E8E(char* filename, Bit8u* adress, Bit32u count, Bit32u size, 
 
 Bit32u compare_with_sequence_EA3E4(char* filename, type_str_0x6E8E** adress, Bit32u count, Bit32u size, Bit8u* origbyte, Bit8u* copybyte) {
 	char findnamec[500];
-	Bit8u* buffer = (Bit8u*)malloc(size * 0x3E9);
+	Bit8u* buffer = (Bit8u*)malloc(size * 1001);
 	FILE* fptestepc;
 	sprintf(findnamec, "c:/prenos/dosbox-x-remc2/vs2015/seq_D41A0-%s.bin", filename);
 	fptestepc = fopen(findnamec, "rb");
@@ -950,11 +950,11 @@ Bit32u compare_with_sequence_EA3E4(char* filename, type_str_0x6E8E** adress, Bit
 		mydelay(100);
 		fptestepc = fopen(findnamec, "rb");
 	}
-	fseek(fptestepc, count * size * 0x3E9/* + offset*/, SEEK_SET);
+	fseek(fptestepc, count * size * 1001/* + offset*/, SEEK_SET);
 
-	fread(buffer, size * 0x3E9, 1, fptestepc);
+	fread(buffer, size * 1001, 1, fptestepc);
 
-	for (int ea = 0; ea < 0x3E9; ea++)
+	for (int ea = 0; ea < 1001; ea++)
 	{
 		Bit32u i;
 		bool testa, testb;

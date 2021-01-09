@@ -3,6 +3,9 @@
 #include <sstream>
 #include <stddef.h>
 #include <stdarg.h>     /* va_list, va_start, va_arg, va_end */
+#include"../portability/port_time.h"
+#include "../portability/port_sdl_vga_mouse.h"
+#include "../portability/mctypes.h"
 
 #include "png.h"
 #pragma comment(lib, "zlib.lib") // must be before libpng!
@@ -11,10 +14,6 @@
 #else
 #endif
 
-#include"../portability/port_time.h"
-
-#include "../portability/port_sdl_vga_mouse.h"
-#include "../portability/mctypes.h"
 //#define USE_DOSBOX
 
 #ifndef ENGINE_SUPPORT_ACTIVE

@@ -61,12 +61,6 @@
     <Filter Include="Header Files\dosbox_files">
       <UniqueIdentifier>{f6116152-6e55-4742-8355-4b589d207084}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Source Files\editor">
-      <UniqueIdentifier>{0837e4e0-01f0-4c0c-beb1-ba41cdf17b6c}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Header Files\editor">
-      <UniqueIdentifier>{c6723a58-ab58-4cf4-abba-4a430c08f7b7}</UniqueIdentifier>
-    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="stdafx.h">
@@ -348,8 +342,8 @@
     <ClInclude Include="engine\read_config.h">
       <Filter>Header Files\engine</Filter>
     </ClInclude>
-    <ClInclude Include="editor\editor.h">
-      <Filter>Header Files\editor</Filter>
+    <ClInclude Include="engine\defs.h">
+      <Filter>Header Files\engine</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -586,9 +580,6 @@
     </ClCompile>
     <ClCompile Include="DataFileIO.cpp">
       <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="editor\editor.cpp">
-      <Filter>Source Files\editor</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

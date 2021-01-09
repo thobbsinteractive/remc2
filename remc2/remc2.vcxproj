@@ -237,7 +237,6 @@
     <ClInclude Include="..\SDL-Mixer-X-master\src\music.h" />
     <ClInclude Include="DataFileIO.h" />
     <ClInclude Include="dosbox_files\config.h" />
-    <ClInclude Include="editor\editor.h" />
     <ClInclude Include="engine\ail_sound.h" />
     <ClInclude Include="engine\defs.h" />
     <ClInclude Include="engine\engine_support.h" />
@@ -323,7 +322,6 @@
     <ClCompile Include="..\SDL-Mixer-X-master\src\music.c" />
     <ClCompile Include="..\temp\dirent.c" />
     <ClCompile Include="DataFileIO.cpp" />
-    <ClCompile Include="editor\editor.cpp" />
     <ClCompile Include="engine\engine_support.cpp" />
     <ClCompile Include="engine\engine_support_converts.cpp" />
     <ClCompile Include="engine\read_config.cpp" />

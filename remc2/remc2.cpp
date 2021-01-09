@@ -5,12 +5,7 @@
 
 using namespace std;
 
-#ifdef _MSC_VER
 int main(int argc, char** argv)
-#else
-int main(int argc, char** argv)
-#endif
-//int main()
 {
 	
 	//char *argv[] = { "netherw.exe","-level","2", NULL };

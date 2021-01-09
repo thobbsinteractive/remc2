@@ -1,5 +1,6 @@
 #ifndef PORT_FILESYSTEM
 #define PORT_FILESYSTEM
+#pragma once
 
 #include <cstdint>
 #include <stdio.h>
