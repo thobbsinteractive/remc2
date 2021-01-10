@@ -90,7 +90,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>false</ConformanceMode>
-      <AdditionalIncludeDirectories>$(SolutionDir)\sdl2\include;$(SolutionDir)\fluidsynth\include;$(SolutionDir)\libADLMIDI-master\include;$(SolutionDir)\libOPNMIDI-master\include;$(SolutionDir)\SDL-Mixer-X-master\include\SDL_mixer_ext;$(SolutionDir)\SDL-Mixer-X-master\src;$(SolutionDir)\lib\inih;$(SolutionDir)\libvorbis\include;$(SolutionDir)\libogg\include;$(SolutionDir)\libpng2\libpng-master;$(SolutionDir)\zlib\include;$(SolutionDir)\kiss_sdl-master;$(SolutionDir)\SDL2_image-2.0.5\include;$(SolutionDir)\SDL2_ttf-2.0.15\include;$(SolutionDir)\SDL-Mixer-X-master\include\;$(SolutionDir)\SDL-Mixer-X-master\src\codecs\;$(SolutionDir)\OpenAL 1.1 SDK\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir)\sdl2\include;$(SolutionDir)\fluidsynth\include;$(SolutionDir)\lib\libADLMIDI-master\include;$(SolutionDir)\libOPNMIDI-master\include;$(SolutionDir)\SDL-Mixer-X-master\include\SDL_mixer_ext;$(SolutionDir)\SDL-Mixer-X-master\src;$(SolutionDir)\lib\inih;$(SolutionDir)\libvorbis\include;$(SolutionDir)\libogg\include;$(SolutionDir)\libpng2\libpng-master;$(SolutionDir)\zlib\include;$(SolutionDir)\kiss_sdl-master;$(SolutionDir)\SDL2_image-2.0.5\include;$(SolutionDir)\SDL2_ttf-2.0.15\include;$(SolutionDir)\SDL-Mixer-X-master\include\;$(SolutionDir)\SDL-Mixer-X-master\src\codecs\;$(SolutionDir)\OpenAL 1.1 SDK\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <EnableEnhancedInstructionSet>StreamingSIMDExtensions2</EnableEnhancedInstructionSet>
     </ClCompile>
     <Link>
@@ -164,28 +164,28 @@
   <ItemGroup>
     <ClInclude Include="..\lib\inih\ini.h" />
     <ClInclude Include="..\lib\inih\INIReader.h" />
-    <ClInclude Include="..\libADLMIDI-master\src\adldata.hh" />
-    <ClInclude Include="..\libADLMIDI-master\src\adlmidi_bankmap.h" />
-    <ClInclude Include="..\libADLMIDI-master\src\adlmidi_cvt.hpp" />
-    <ClInclude Include="..\libADLMIDI-master\src\adlmidi_midiplay.hpp" />
-    <ClInclude Include="..\libADLMIDI-master\src\adlmidi_opl3.hpp" />
-    <ClInclude Include="..\libADLMIDI-master\src\adlmidi_private.hpp" />
-    <ClInclude Include="..\libADLMIDI-master\src\adlmidi_ptr.hpp" />
-    <ClInclude Include="..\libADLMIDI-master\src\chips\dosbox\dbopl.h" />
-    <ClInclude Include="..\libADLMIDI-master\src\chips\dosbox_opl3.h" />
-    <ClInclude Include="..\libADLMIDI-master\src\chips\nuked\nukedopl3.h" />
-    <ClInclude Include="..\libADLMIDI-master\src\chips\nuked\nukedopl3_174.h" />
-    <ClInclude Include="..\libADLMIDI-master\src\chips\nuked_opl3.h" />
-    <ClInclude Include="..\libADLMIDI-master\src\chips\nuked_opl3_v174.h" />
-    <ClInclude Include="..\libADLMIDI-master\src\chips\opl_chip_base.h" />
-    <ClInclude Include="..\libADLMIDI-master\src\cvt_mus2mid.hpp" />
-    <ClInclude Include="..\libADLMIDI-master\src\cvt_xmi2mid.hpp" />
-    <ClInclude Include="..\libADLMIDI-master\src\file_reader.hpp" />
-    <ClInclude Include="..\libADLMIDI-master\src\fraction.hpp" />
-    <ClInclude Include="..\libADLMIDI-master\src\midi_sequencer.h" />
-    <ClInclude Include="..\libADLMIDI-master\src\midi_sequencer.hpp" />
-    <ClInclude Include="..\libADLMIDI-master\src\midi_sequencer_impl.hpp" />
-    <ClInclude Include="..\libADLMIDI-master\src\wopl\wopl_file.h" />
+    <ClInclude Include="..\lib\libADLMIDI-master\src\adldata.hh" />
+    <ClInclude Include="..\lib\libADLMIDI-master\src\adlmidi_bankmap.h" />
+    <ClInclude Include="..\lib\libADLMIDI-master\src\adlmidi_cvt.hpp" />
+    <ClInclude Include="..\lib\libADLMIDI-master\src\adlmidi_midiplay.hpp" />
+    <ClInclude Include="..\lib\libADLMIDI-master\src\adlmidi_opl3.hpp" />
+    <ClInclude Include="..\lib\libADLMIDI-master\src\adlmidi_private.hpp" />
+    <ClInclude Include="..\lib\libADLMIDI-master\src\adlmidi_ptr.hpp" />
+    <ClInclude Include="..\lib\libADLMIDI-master\src\chips\dosbox\dbopl.h" />
+    <ClInclude Include="..\lib\libADLMIDI-master\src\chips\dosbox_opl3.h" />
+    <ClInclude Include="..\lib\libADLMIDI-master\src\chips\nuked\nukedopl3.h" />
+    <ClInclude Include="..\lib\libADLMIDI-master\src\chips\nuked\nukedopl3_174.h" />
+    <ClInclude Include="..\lib\libADLMIDI-master\src\chips\nuked_opl3.h" />
+    <ClInclude Include="..\lib\libADLMIDI-master\src\chips\nuked_opl3_v174.h" />
+    <ClInclude Include="..\lib\libADLMIDI-master\src\chips\opl_chip_base.h" />
+    <ClInclude Include="..\lib\libADLMIDI-master\src\cvt_mus2mid.hpp" />
+    <ClInclude Include="..\lib\libADLMIDI-master\src\cvt_xmi2mid.hpp" />
+    <ClInclude Include="..\lib\libADLMIDI-master\src\file_reader.hpp" />
+    <ClInclude Include="..\lib\libADLMIDI-master\src\fraction.hpp" />
+    <ClInclude Include="..\lib\libADLMIDI-master\src\midi_sequencer.h" />
+    <ClInclude Include="..\lib\libADLMIDI-master\src\midi_sequencer.hpp" />
+    <ClInclude Include="..\lib\libADLMIDI-master\src\midi_sequencer_impl.hpp" />
+    <ClInclude Include="..\lib\libADLMIDI-master\src\wopl\wopl_file.h" />
     <ClInclude Include="..\libOPNMIDI-master\src\chips\gens\Ym2612_Emu.h" />
     <ClInclude Include="..\libOPNMIDI-master\src\chips\gens_opn2.h" />
     <ClInclude Include="..\libOPNMIDI-master\src\chips\gx\gx_ym2612.h" />
@@ -258,20 +258,20 @@
   <ItemGroup>
     <ClCompile Include="..\lib\inih\ini.c" />
     <ClCompile Include="..\lib\inih\INIReader.cpp" />
-    <ClCompile Include="..\libADLMIDI-master\src\adldata.cpp" />
-    <ClCompile Include="..\libADLMIDI-master\src\adlmidi.cpp" />
-    <ClCompile Include="..\libADLMIDI-master\src\adlmidi_load.cpp" />
-    <ClCompile Include="..\libADLMIDI-master\src\adlmidi_midiplay.cpp" />
-    <ClCompile Include="..\libADLMIDI-master\src\adlmidi_opl3.cpp" />
-    <ClCompile Include="..\libADLMIDI-master\src\adlmidi_private.cpp" />
-    <ClCompile Include="..\libADLMIDI-master\src\adlmidi_sequencer.cpp" />
-    <ClCompile Include="..\libADLMIDI-master\src\chips\dosbox\dbopl.cpp" />
-    <ClCompile Include="..\libADLMIDI-master\src\chips\dosbox_opl3.cpp" />
-    <ClCompile Include="..\libADLMIDI-master\src\chips\nuked\nukedopl3.c" />
-    <ClCompile Include="..\libADLMIDI-master\src\chips\nuked\nukedopl3_174.c" />
-    <ClCompile Include="..\libADLMIDI-master\src\chips\nuked_opl3.cpp" />
-    <ClCompile Include="..\libADLMIDI-master\src\chips\nuked_opl3_v174.cpp" />
-    <ClCompile Include="..\libADLMIDI-master\src\wopl\wopl_file.c" />
+    <ClCompile Include="..\lib\libADLMIDI-master\src\adldata.cpp" />
+    <ClCompile Include="..\lib\libADLMIDI-master\src\adlmidi.cpp" />
+    <ClCompile Include="..\lib\libADLMIDI-master\src\adlmidi_load.cpp" />
+    <ClCompile Include="..\lib\libADLMIDI-master\src\adlmidi_midiplay.cpp" />
+    <ClCompile Include="..\lib\libADLMIDI-master\src\adlmidi_opl3.cpp" />
+    <ClCompile Include="..\lib\libADLMIDI-master\src\adlmidi_private.cpp" />
+    <ClCompile Include="..\lib\libADLMIDI-master\src\adlmidi_sequencer.cpp" />
+    <ClCompile Include="..\lib\libADLMIDI-master\src\chips\dosbox\dbopl.cpp" />
+    <ClCompile Include="..\lib\libADLMIDI-master\src\chips\dosbox_opl3.cpp" />
+    <ClCompile Include="..\lib\libADLMIDI-master\src\chips\nuked\nukedopl3.c" />
+    <ClCompile Include="..\lib\libADLMIDI-master\src\chips\nuked\nukedopl3_174.c" />
+    <ClCompile Include="..\lib\libADLMIDI-master\src\chips\nuked_opl3.cpp" />
+    <ClCompile Include="..\lib\libADLMIDI-master\src\chips\nuked_opl3_v174.cpp" />
+    <ClCompile Include="..\lib\libADLMIDI-master\src\wopl\wopl_file.c" />
     <ClCompile Include="..\libOPNMIDI-master\src\chips\gens\Ym2612_Emu.cpp" />
     <ClCompile Include="..\libOPNMIDI-master\src\chips\gens_opn2.cpp" />
     <ClCompile Include="..\libOPNMIDI-master\src\chips\gx\gx_ym2612.c" />
@@ -338,8 +338,8 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="..\Debug\config.ini" />
-    <None Include="..\libADLMIDI-master\src\adlmidi_bankmap.tcc" />
-    <None Include="..\libADLMIDI-master\src\chips\opl_chip_base.tcc" />
+    <None Include="..\lib\libADLMIDI-master\src\adlmidi_bankmap.tcc" />
+    <None Include="..\lib\libADLMIDI-master\src\chips\opl_chip_base.tcc" />
     <None Include="..\libOPNMIDI-master\src\chips\opn_chip_base.tcc" />
     <None Include="..\libOPNMIDI-master\src\opnmidi_bankmap.tcc" />
     <None Include="..\SDL-Mixer-X-master\src\codecs\play_cmdmusic.pri" />
