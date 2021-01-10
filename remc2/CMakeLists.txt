@@ -51,10 +51,10 @@ set(SOURCE_FILES_ENGINE
 source_group("Source Files\\engine" FILES ${SOURCE_FILES_ENGINE})
 
 set(SOURCE_FILES__libs__inih
-    "../inih/ini.c"
-    "../inih/ini.h"
-    "../inih/INIReader.cpp"
-    "../inih/INIReader.h"
+    "../lib/inih/ini.c"
+    "../lib/inih/ini.h"
+    "../lib/inih/INIReader.cpp"
+    "../lib/inih/INIReader.h"
 )
 source_group("Source Files\\libs\\inih" FILES ${SOURCE_FILES__libs__inih})
 
@@ -68,8 +68,8 @@ source_group("Source Files\\libs\\findfirst" FILES ${SOURCE_FILES__libs__findfir
 
 
 set(SOURCE_FILES__portability
-#    "../temp/dirent.c"
-#    "portability/dirent-x.h"
+    "portability/dirent.c"
+    "portability/dirent-x.h"
     "portability/mctypes.h"
     "portability/port_filesystem.cpp"
     "portability/port_filesystem.h"
