@@ -40,9 +40,6 @@
     <Filter Include="Source Files\libs\libpng">
       <UniqueIdentifier>{fb196976-86c1-4372-b999-a541250ac3dc}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Source Files\libs\kiss-sdl">
-      <UniqueIdentifier>{e736b33a-3eae-4e8d-b5ab-9f14d29617a5}</UniqueIdentifier>
-    </Filter>
     <Filter Include="Source Files\libs\sdl-image">
       <UniqueIdentifier>{59b0bf29-bc92-4444-a34f-c199f5de56c9}</UniqueIdentifier>
     </Filter>
@@ -60,6 +57,9 @@
     </Filter>
     <Filter Include="Header Files\dosbox_files">
       <UniqueIdentifier>{f6116152-6e55-4742-8355-4b589d207084}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\libs\libogg">
+      <UniqueIdentifier>{90a28d91-fd25-4cba-b92c-866996ae5292}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -213,14 +213,11 @@
     <ClInclude Include="..\libOPNMIDI-master\src\chips\nuked\ym3438.h">
       <Filter>Source Files\libs\libOPL</Filter>
     </ClInclude>
-    <ClInclude Include="..\inih\ini.h">
+    <ClInclude Include="..\lib\inih\ini.h">
       <Filter>Source Files\libs\inih</Filter>
     </ClInclude>
-    <ClInclude Include="..\inih\INIReader.h">
+    <ClInclude Include="..\lib\inih\INIReader.h">
       <Filter>Source Files\libs\inih</Filter>
-    </ClInclude>
-    <ClInclude Include="..\kiss_sdl-master\kiss_sdl.h">
-      <Filter>Source Files\libs\kiss-sdl</Filter>
     </ClInclude>
     <ClInclude Include="..\SDL-Mixer-X-master\src\music.h">
       <Filter>Source Files\libs\sdl-mixer-x</Filter>
@@ -464,10 +461,10 @@
     <ClCompile Include="..\libOPNMIDI-master\src\chips\nuked\ym3438.c">
       <Filter>Source Files\libs\libOPL</Filter>
     </ClCompile>
-    <ClCompile Include="..\inih\ini.c">
+    <ClCompile Include="..\lib\inih\ini.c">
       <Filter>Source Files\libs\inih</Filter>
     </ClCompile>
-    <ClCompile Include="..\inih\INIReader.cpp">
+    <ClCompile Include="..\lib\inih\INIReader.cpp">
       <Filter>Source Files\libs\inih</Filter>
     </ClCompile>
     <ClCompile Include="engine\read_config.cpp">
@@ -475,18 +472,6 @@
     </ClCompile>
     <ClCompile Include="engine\engine_support_converts.cpp">
       <Filter>Source Files\engine</Filter>
-    </ClCompile>
-    <ClCompile Include="..\kiss_sdl-master\kiss_draw.cpp">
-      <Filter>Source Files\libs\kiss-sdl</Filter>
-    </ClCompile>
-    <ClCompile Include="..\kiss_sdl-master\kiss_general.cpp">
-      <Filter>Source Files\libs\kiss-sdl</Filter>
-    </ClCompile>
-    <ClCompile Include="..\kiss_sdl-master\kiss_posix.cpp">
-      <Filter>Source Files\libs\kiss-sdl</Filter>
-    </ClCompile>
-    <ClCompile Include="..\kiss_sdl-master\kiss_widgets.cpp">
-      <Filter>Source Files\libs\kiss-sdl</Filter>
     </ClCompile>
     <ClCompile Include="..\temp\dirent.c">
       <Filter>Source Files\portability</Filter>
@@ -674,6 +659,9 @@
     </Library>
     <Library Include="..\SDL2_ttf-2.0.15\lib\x86\SDL2_ttf.lib">
       <Filter>Source Files\libs\sdl-ttf</Filter>
+    </Library>
+    <Library Include="..\lib\libogg\libogg_static.lib">
+      <Filter>Source Files\libs\libogg</Filter>
     </Library>
   </ItemGroup>
 </Project>
