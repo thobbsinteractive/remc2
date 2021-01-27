@@ -1,11 +1,12 @@
+#pragma once
 #ifndef DataFileIO_H
 #define DataFileIO_H
 
 #include <cstdio>
-#include "dosbox_files/config.h"
-#include "portability/mctypes.h"
-#include "portability/port_filesystem.h"
-#include "portability/port_outputs.h"
+#include "../dosbox_files/config.h"
+#include "../portability/mctypes.h"
+#include "../portability/port_filesystem.h"
+#include "../portability/port_outputs.h"
 
 #define RNC_SIGN 0x524E43 // RNC
 #define RNC_HEADER_SIZE 0x12
