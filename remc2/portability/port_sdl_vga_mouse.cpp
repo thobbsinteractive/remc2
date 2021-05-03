@@ -27,7 +27,7 @@ bool m_bMaintainAspectRatio = true;
 bool settingWindowGrabbed = true;
 bool settingWASD = false;
 
-const char* default_caption = "Magic Carpet 2 - Community Update";
+const char* default_caption = "Magic Carpet 2 - HD";
 
 bool inited = false;
 Uint8 temppallettebuffer[768];

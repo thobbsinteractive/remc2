@@ -57,7 +57,7 @@
     <ClCompile Include="..\kiss_sdl-master\kiss_widgets.cpp">
       <Filter>Source Files\libs\kiss-sdl</Filter>
     </ClCompile>
-    <ClCompile Include="launcher.cpp">
+    <ClCompile Include="Launcher.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="..\inih\ini.c">
@@ -242,6 +242,9 @@
     </ClCompile>
     <ClCompile Include="..\remc2\portability\port_filesystem.cpp">
       <Filter>Source Files\portability</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphicsSettingsForm.cpp">
+      <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -466,6 +469,9 @@
     </ClInclude>
     <ClInclude Include="..\remc2\portability\port_filesystem.h">
       <Filter>Header Files\portability</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphicsSettingsForm.h">
+      <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
