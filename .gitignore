@@ -36,6 +36,12 @@
 **/music-ogg
 **/config.ini
 
+**/launcher.exe
+**/launcher.exp
+**/launcher.lib
+**/launcher/*.user
+**/launcher/Debug
+
 /build*
 .flatpak*
 
